@@ -1,3 +1,4 @@
+python==3.9
 pyrogram
 tgcrypto
 pymongo[srv]==3.12.3
