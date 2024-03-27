@@ -1,7 +1,7 @@
 pyrogram
 tgcrypto
 pymongo[srv]==4.1.0
-motor==3.0.0
+motor==2.5.1
 marshmallow==3.14.1
 umongo==3.0.1
 requests
