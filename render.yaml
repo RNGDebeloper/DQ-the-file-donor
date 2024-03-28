@@ -2,7 +2,9 @@ services:
   # A Docker web service
   - type: web
     name: DQ-The-File-Donor
-    env: python
+    env:
+      - type: python
+        PYTHON_VERSION: 3.10.8
     startCommand: python3 bot.py
     buildCommand: pip3 install -U -r requirements.txt
     repo: https://github.com/Joelkb/DQ-the-file-donor.git # optional
